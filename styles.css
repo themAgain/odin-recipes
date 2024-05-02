@@ -1,0 +1,16 @@
+* {
+  background-color: antiquewhite;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+  border: black solid 1px;
+  width: 300px;
+  background-color: rgb(248, 213, 170);
+}
+a {
+  text-decoration: none;
+}
+a.home {
+  font-size: larger;
+}
