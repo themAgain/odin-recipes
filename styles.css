@@ -1,6 +1,13 @@
 * {
-  background-color: antiquewhite;
+  background-color: lightpink;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  background-color: mediumspringgreen;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 30px;
 }
 
 nav.container {
@@ -11,20 +18,25 @@ nav.container {
   margin: 3px;
   border-radius: 20px;
   padding: 4px;
+  flex: 0 1 auto;
 }
 
 ul {
   border: black solid 1px;
+  border-radius: 10px;
   width: 300px;
-  background-color: rgb(248, 213, 170);
+  background-color: yellow;
 }
 
 a {
   text-decoration: none;
   padding: 4px;
   border-radius: 30px;
-  background-color: rgba(165, 42, 42, 0.658);
-  color: white;
+  background-color: yellow;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  font-style: oblique;
 }
 
 a.home {
@@ -37,7 +49,12 @@ div.head{
 }
 
 div.recipe {
-  border: 2px dashed darkred;
+  border: 2px dashed green;
   padding: 20px;
   margin: 0 4px;
+}
+
+.ingredients li {
+  background-color: yellow;
+  border-radius: 0 10px 10px 0;
 }
