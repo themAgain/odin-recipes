@@ -12,6 +12,8 @@ h1 {
 
 nav.container {
   display: flex;
+  justify-content: center;
+  border: plum dashed 2px;
 }
 
  .nav {
@@ -19,13 +21,7 @@ nav.container {
   border-radius: 20px;
   padding: 4px;
   flex: 0 1 auto;
-}
-
-ul {
-  border: black solid 1px;
-  border-radius: 10px;
-  width: 300px;
-  background-color: yellow;
+  flex-wrap: wrap;
 }
 
 a {
@@ -49,9 +45,21 @@ div.head{
 }
 
 div.recipe {
-  border: 2px dashed green;
+  border: 2px dashed yellow;
+  background-color: skyblue;
   padding: 20px;
   margin: 0 4px;
+}
+
+div.recipe * {
+  background-color: skyblue;
+}
+
+div.recipe ul {
+  border: black solid 1px;
+  border-radius: 10px;
+  width: 300px;
+  background-color: yellow;
 }
 
 .ingredients li {
